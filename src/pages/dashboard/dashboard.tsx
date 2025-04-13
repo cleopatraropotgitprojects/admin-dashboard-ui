@@ -1,12 +1,16 @@
 import { BarChart2, Users, DollarSign } from 'lucide-react';
 import {Card, RecentUsersTable, UserChart} from "@/components";
 import {useDashboardStats} from "@/services/dashboardService";
+import {useRecentUsers} from "@/hooks/useRecentUsers";
 
 const DashboardPage = () => {
     const { data, isLoading, isError } = useDashboardStats();
+    const {
+        data: recentUsers,
+    } = useRecentUsers();
+
     if (isLoading) return <p className="text-blue-500">Loading dashboard data...</p>;
-    if (isError) return <p className="text-red-500">Something went wrong</p>;
-    if (!data) return <p className="text-orange-500">No data received</p>;
+    if (isError || !data) return <p className="text-red-500">Error loading dashboard data</p>;
 
     return (
         <div className="space-y-8">
@@ -17,7 +21,9 @@ const DashboardPage = () => {
             </div>
 
             <UserChart />
-            <RecentUsersTable />
+            <RecentUsersTable
+                data={recentUsers}
+            />
         </div>
     );
 };

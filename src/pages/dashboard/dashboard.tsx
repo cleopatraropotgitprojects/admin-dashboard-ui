@@ -1,7 +1,5 @@
 import { BarChart2, Users, DollarSign } from 'lucide-react';
-import Card from "../../components/card/card";
-import UserChart from "../../components/chart/userChart";
-import RecentUsersTable from "../../components/table/recentUsersTable";
+import {Card, RecentUsersTable, UserChart} from "@/components";
 
 const DashboardPage = () => {
     return (

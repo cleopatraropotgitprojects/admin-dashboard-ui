@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd542807-9d9a-48ad-8e6f-4a5acfc5dfff" name="Changes" comment="API integration in Dashboard - chart component updated &amp; api integration">
-      <change afterPath="$PROJECT_DIR$/src/context/authContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/auth/loginPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/protectedRoute.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/sidebar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "KAN-10",
+    "git-widget-placeholder": "KAN-11",
     "last_opened_file_path": "/Users/cleopatraropot/Development/personal/admin-dashboard-ui/src/pages/users",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -150,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744545892121</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Simple login system">
+      <option name="closed" value="true" />
+      <created>1744547363552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744547363552</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +169,7 @@
     <MESSAGE value="save" />
     <MESSAGE value="fixed error" />
     <MESSAGE value="API integration in Dashboard - chart component updated &amp; api integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="API integration in Dashboard - chart component updated &amp; api integration" />
+    <MESSAGE value="Simple login system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple login system" />
   </component>
 </project>

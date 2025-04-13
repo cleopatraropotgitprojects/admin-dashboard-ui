@@ -5,7 +5,7 @@ const Sidebar = () => {
     return (
         <aside className="w-64 h-screen bg-white dark:bg-zinc-900 shadow-lg fixed top-0 left-0 flex flex-col">
             <div className="p-6 text-2xl font-bold text-zinc-800 dark:text-white">
-                AdminPanel
+                Admin Panel
             </div>
             <nav className="flex-1 px-4 py-2 space-y-2">
                 <NavLink

@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd542807-9d9a-48ad-8e6f-4a5acfc5dfff" name="Changes" comment="KAN-2: Test">
-      <change afterPath="$PROJECT_DIR$/src/components/sidebar/sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/adminLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dashboard/dashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/users/users.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
+    <list default="true" id="cd542807-9d9a-48ad-8e6f-4a5acfc5dfff" name="Changes" comment="Setup folder structure&#10;Create Sidebar component&#10;Combine layout components">
+      <change afterPath="$PROJECT_DIR$/src/components/card/card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chart/userChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table/recentUsersTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/settings/settings.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/users/users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744538829730</updated>
-      <workItem from="1744538830945" duration="1189000" />
+      <workItem from="1744538830945" duration="1861000" />
     </task>
     <task id="LOCAL-00001" summary="KAN-2: Test">
       <option name="closed" value="true" />
@@ -105,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744539090583</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Setup folder structure&#10;Create Sidebar component&#10;Combine layout components">
+      <option name="closed" value="true" />
+      <created>1744540153238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744540153238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="KAN-2: Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="KAN-2: Test" />
+    <MESSAGE value="Setup folder structure&#10;Create Sidebar component&#10;Combine layout components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup folder structure&#10;Create Sidebar component&#10;Combine layout components" />
   </component>
 </project>

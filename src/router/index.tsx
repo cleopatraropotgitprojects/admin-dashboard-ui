@@ -2,6 +2,7 @@ import { createBrowserRouter, Navigate } from 'react-router-dom';
 import AdminLayout from "../layouts/adminLayout";
 import DashboardPage from "../pages/dashboard/dashboard";
 import UsersPage from "../pages/users/users";
+import SettingsPage from "../pages/settings/settings";
 
 export const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ export const router = createBrowserRouter([
             {
                 path: 'users',
                 element: <UsersPage />,
+            },
+            {
+                path: 'settings',
+                element: <SettingsPage />,
             },
         ],
     },

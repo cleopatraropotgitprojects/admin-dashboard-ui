@@ -4,8 +4,9 @@ import {useDashboardStats} from "@/services/dashboardService";
 
 const DashboardPage = () => {
     const { data, isLoading, isError } = useDashboardStats();
-    if (isLoading) return <p>Loading...</p>;
-    if (isError || !data) return <p>Something went wrong.</p>;
+    if (isLoading) return <p className="text-blue-500">Loading dashboard data...</p>;
+    if (isError) return <p className="text-red-500">Something went wrong</p>;
+    if (!data) return <p className="text-orange-500">No data received</p>;
 
     return (
         <div className="space-y-8">

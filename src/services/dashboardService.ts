@@ -5,5 +5,6 @@ export const useDashboardStats = () => {
     return useQuery({
         queryKey: ['dashboardStats'],
         queryFn: getDashboardStatus,
+        staleTime: 1000 * 60, // 1 minut
     });
 };

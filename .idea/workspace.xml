@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd542807-9d9a-48ad-8e6f-4a5acfc5dfff" name="Changes" comment="Log-out button in sidebar component">
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/themeContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/authContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/authContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/settings/settings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/settings/settings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/adminLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/adminLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "KAN-11",
+    "git-widget-placeholder": "KAN-12",
     "last_opened_file_path": "/Users/cleopatraropot/Development/personal/admin-dashboard-ui/src/pages/users",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

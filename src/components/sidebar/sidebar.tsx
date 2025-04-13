@@ -1,21 +1,34 @@
-import {NavLink, useNavigate} from 'react-router-dom';
-import {Home, Users, Settings, LogOut} from 'lucide-react';
+import { LogOut, Home, Users, Settings, X } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 import {useAuth} from "@/context/authContext";
 
-const Sidebar = () => {
+type SidebarProps = {
+    onClose?: () => void;
+};
+
+const Sidebar = ({ onClose }: SidebarProps) => {
     const { logout } = useAuth();
-    const navigate = useNavigate();
 
     const handleLogout = () => {
         logout();
-        navigate('/login');
+        window.location.href = '/login';
     };
 
     return (
-        <aside className="w-64 h-screen bg-white dark:bg-zinc-900 shadow-lg fixed top-0 left-0 flex flex-col">
+        <aside className="hidden md:flex w-64 h-screen bg-white dark:bg-zinc-900 shadow-lg fixed top-0 left-0 flex-col z-40">
+            {onClose && (
+                <button
+                    onClick={onClose}
+                    className="md:hidden self-end m-4 text-zinc-600 dark:text-zinc-300 hover:text-red-500"
+                >
+                    <X size={24} />
+                </button>
+            )}
+
             <div className="p-6 text-2xl font-bold text-zinc-800 dark:text-white">
                 Admin Panel
             </div>
+
             <nav className="flex-1 px-4 py-2 space-y-2">
                 <NavLink
                     to="/dashboard"
@@ -59,11 +72,13 @@ const Sidebar = () => {
                     Settings
                 </NavLink>
             </nav>
+
             <div className="px-4 py-2">
                 <button
                     onClick={handleLogout}
-                    className="w-full flex items-center gap-3 px-4 py-2 rounded-lg text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:bg-red-100 dark:hover:bg-red-900 hover:text-red-600 dark:hover:text-red-300 transition">
-                    <LogOut size={20}/>
+                    className="w-full flex items-center gap-3 px-4 py-2 rounded-lg text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:bg-red-100 dark:hover:bg-red-900 hover:text-red-600 dark:hover:text-red-300 transition"
+                >
+                    <LogOut size={18} />
                     Logout
                 </button>
             </div>

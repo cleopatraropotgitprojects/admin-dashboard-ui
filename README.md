@@ -4,6 +4,10 @@ An elegant and responsive admin dashboard built with React, TypeScript, and Tail
 
 ## 🚀 Live Demo
 
+CREDENTIALS:
+login: admin
+password: admin
+
 🔗 [View Live](https://admin-dashboard-ui-weld.vercel.app/)
 
 ## ✨ Features

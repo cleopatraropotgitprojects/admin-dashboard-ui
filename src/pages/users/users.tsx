@@ -1,13 +1,12 @@
 import { Search } from 'lucide-react';
 import {RecentUsersTable} from "@/components";
 import {useState} from "react";
-import {useRecentUsers} from "@/hooks/useRecentUsers";
+import {usersTable} from "@/mock/data";
 
 const UsersPage = () => {
     const [search, setSearch] = useState('');
-    const { data } = useRecentUsers();
 
-    const filteredUsers = data?.filter(user =>
+    const filteredUsers = usersTable?.filter(user =>
         user.email.toLowerCase().includes(search.toLowerCase())
     );
 

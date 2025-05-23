@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd542807-9d9a-48ad-8e6f-4a5acfc5dfff" name="Changes" comment="Log-out button in sidebar component">
-      <change afterPath="$PROJECT_DIR$/src/components/sidebar/sidebarMobile.tsx" afterDir="false" />
+    <list default="true" id="cd542807-9d9a-48ad-8e6f-4a5acfc5dfff" name="Changes" comment="Responsive for phone resolution">
+      <change afterPath="$PROJECT_DIR$/src/mock/data.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/adminLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/adminLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chart/userChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chart/userChart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useDashboardStats.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useRecentUsers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useUserGrowth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/users/users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/dashboardService.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +30,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="KAN-14" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "cleopatraropotgitprojects"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/cleopatraropotgitprojects/admin-dashboard-ui",
+    "accountId": "5b082eab-1930-4acd-ad97-c8ac3769cbbb"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -47,9 +63,11 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "KAN-13",
-    "last_opened_file_path": "/Users/cleopatraropot/Development/personal/admin-dashboard-ui/src/pages/users",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/cleopatraropot/Development/personal/admin-dashboard-ui",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,13 +104,14 @@
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
       </set>
     </attachedChunks>
   </component>
@@ -108,6 +127,10 @@
       <workItem from="1744541680370" duration="482000" />
       <workItem from="1744543607805" duration="363000" />
       <workItem from="1744544050803" duration="2439000" />
+      <workItem from="1744555219199" duration="2000000" />
+      <workItem from="1744661100838" duration="53000" />
+      <workItem from="1744661895616" duration="120000" />
+      <workItem from="1748001177930" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="KAN-2: Test">
       <option name="closed" value="true" />

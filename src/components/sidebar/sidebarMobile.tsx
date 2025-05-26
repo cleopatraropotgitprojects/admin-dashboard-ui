@@ -44,14 +44,6 @@ const SidebarMobile = ({ onClose }: Props) => {
                     Settings
                 </NavLink>
             </nav>
-
-            <button
-                onClick={handleLogout}
-                className="mt-auto flex items-center gap-3 px-4 py-2 rounded-lg text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:bg-red-100 dark:hover:bg-red-900 hover:text-red-600 dark:hover:text-red-300 transition"
-            >
-                <LogOut size={18} />
-                Logout
-            </button>
         </div>
     );
 };

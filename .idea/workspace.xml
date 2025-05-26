@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd542807-9d9a-48ad-8e6f-4a5acfc5dfff" name="Changes" comment="Responsive for phone resolution">
-      <change afterPath="$PROJECT_DIR$/src/mock/data.ts" afterDir="false" />
+    <list default="true" id="cd542807-9d9a-48ad-8e6f-4a5acfc5dfff" name="Changes" comment="FIXED API ERROR DATA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chart/userChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chart/userChart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useDashboardStats.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useRecentUsers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useUserGrowth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/users/users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/users.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/dashboardService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/sidebarMobile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/sidebarMobile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +30,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "cleopatraropotgitprojects"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cleopatraropotgitprojects&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/cleopatraropotgitprojects/admin-dashboard-ui",
-    "accountId": "5b082eab-1930-4acd-ad97-c8ac3769cbbb"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cleopatraropotgitprojects/admin-dashboard-ui&quot;,
+    &quot;accountId&quot;: &quot;5b082eab-1930-4acd-ad97-c8ac3769cbbb&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -58,27 +53,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/cleopatraropot/Development/personal/admin-dashboard-ui",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "/Users/cleopatraropot/Development/personal/admin-dashboard-ui/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/cleopatraropot/Development/personal/admin-dashboard-ui&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/cleopatraropot/Development/personal/admin-dashboard-ui/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/users" />
@@ -131,6 +126,7 @@
       <workItem from="1744661100838" duration="53000" />
       <workItem from="1744661895616" duration="120000" />
       <workItem from="1748001177930" duration="812000" />
+      <workItem from="1748252336198" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="KAN-2: Test">
       <option name="closed" value="true" />
